@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+body {
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+}
+
+.fContainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px;
+    background-color: black;
+    width: 2000px;
+    height: 80px;
+.brand{
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+}
+    
+}
+.firstname{
+    color: coral;
+    font-size: 250%;
+}
+.lastname{
+    color: aliceblue;
+    padding-right: 10px;
+    font-size: 250%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation>li{
+    list-style-type: none;
+    padding: 10px;
+    
+}
+.navigation>li>a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.active{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.navigation>li>a:hover{
+    color: coral;
+    transition: all 0.2s ease-in-out;
+}
